@@ -1,0 +1,56 @@
+Francesco Alexander / 535240156
+Delvin Sulistio / 535240012
+Vicky Erie Sukardi / 535249101
+=======================================================================================
+
+=======================================================================================
+
+Pastikan Membuka Folder yang Benar Yaitu Folder PROJEK (Kesalahan folder menyebabkan kode tidak dapat dijalankan)
+
+Panduan:
+
+Dikarenakan Data sudah kami train, dan data sudah dibersihkan oleh kami:
+(Dikarenakan jika harus dari awal butuh estimasi Waktu 150-240 Menit (bergantung pada GPU) )
+
+Jadi cukup untuk ketik di terminal
+python app.py
+
+lalu website dapat lansung diakses dan fully working di:
+http://localhost:5000/
+
+
+=======================================================================================
+
+=======================================================================================
+
+Umumnya: (Jika data belum di train dan harus dibersihkan dari awal)
+
+1. Data steam_review_game.csv harus dibersihkan dengan melakukan:
+
+Run All di bersihindata.ipynb
+
+Sehingga dapat menghasilkan dataset yang sudah bersih yaitu steam_review_game_bersih.csv
+
+
+2. Lalu untuk mengtrain data jalankan:
+
+
+Run All di kode.ipynb (Proses membutuhkan Waktu sangat lama, dikarenakan dataset kami ada 720k)
+
+Sehingga data menjadi fully trained
+
+
+3. Jalankan server
+
+python app.py (di terminal)
+
+lalu website dapat lansung diakses dan fully working di:
+http://localhost:5000/
+
+=======================================================================================
+
+
+
+
+
+
